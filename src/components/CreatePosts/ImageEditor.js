@@ -43,7 +43,6 @@ const EditImage = () => {
       canvasEle.width = croppedWidth;
       canvasEle.height = croppedHeight;
 
-      // Draw the cropped image on the canvas
       ctx.drawImage(imageObj, 0, 0, imageObj.width, imageObj.height, 0, 0, croppedWidth, croppedHeight);
 
 

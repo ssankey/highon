@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
 import { useLocation,useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
@@ -36,14 +35,12 @@ const FormPage = () => {
     { value: 'photography', label: 'Photography' },
     { value: 'food', label: 'Food' },
     { value: 'gaming', label: 'Gaming' },
-    // Add more tag options as needed
   ];
 
   const locationOptions = [
     { value: 'Bangalore', label: 'Bangalore' },
     { value: 'Mumbai', label: 'Mumbai' },
     { value: 'Delhi', label: 'Delhi' },
-    // Add more location options as needed
   ];
 
   const handleTagClick = (tagValue) => {

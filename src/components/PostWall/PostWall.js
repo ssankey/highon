@@ -46,7 +46,7 @@ const PostWall = () => {
                 src={post.mediaUrl}
                 alt={post.description}
                 className="w-full h-full rounded-[10px] object-cover cursor-pointer"
-                loading="lazy" // Implement lazy loading for images
+                loading="lazy" 
                 onClick={() => handleClick(post)}
               />
             ) : (

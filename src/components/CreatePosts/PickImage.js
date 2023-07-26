@@ -21,7 +21,7 @@ function PickImage() {
       <input
         type="file"
         id="file-input"
-        accept="image/*, video/*" // Accept both image and video files
+        accept="image/*, video/*" 
         className="hidden"
         onChange={handleFileUpload}
       />
